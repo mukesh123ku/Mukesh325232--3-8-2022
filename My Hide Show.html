@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hide And Show</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+   
+   $(document).ready(function(){
+			$("#hide").click(function(){
+                $("#mydiv").hide(5000); 
+            });
+            $("#show").click(function(){
+                $("#mydiv").show(5000);
+                });
+            });
+    </script>
+   
+     
+</head>
+<body>
+    <div id="mydiv" >
+    <p><img src="1.png" height="500px" width="500px" alt=""></p></div>
+<hr>
+    
+<button id="hide" >Hide</button>&nbsp;&nbsp;<button id="show">Show</button>
+<hr>
+</body>
+</html>
